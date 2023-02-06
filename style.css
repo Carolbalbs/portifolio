@@ -5,22 +5,22 @@
 }
 :root{
     --textColor: white; 
-    --bgUrl:url(./src/images/mb-background.jpg);
+    --bgUrl:url('./src/images/mb-background.jpg');
     --strokeColor:rgba(255, 255, 255, 0.5);
     --surfaceColor:rgba(255, 255, 255, 0.05);
     --surfaceColorHover:rgba(0, 0, 0, 0.02);
     --highLightColor:rgba(255, 255, 255, 0.2);
-    --switchBg:url(./src/images/moon-stars.svg);
+    --switchBg:url('./src/images/moon-stars.svg');
     
 }
 .light{
    --textColor: black;
-   --bgUrl:url(./src/images/mb-background-light.png);
+   --bgUrl:url('./src/images/mb-background-light.png');
    --strokeColor: rgba(0, 0, 0, 0.5);
    --surfaceColor:rgba(0, 0, 0, 0.05);
    --surfaceColorHover:rgba(0, 0, 0, 0.02);
    --highLightColor:rgba(0, 0, 0, 0.1);
-   --switchBg: url(/src/images/sun-stars.svg);
+   --switchBg: url('./src/images/mb-background-light.png');
 }
 body *{
     text-decoration: none;
